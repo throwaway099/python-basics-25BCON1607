@@ -2,41 +2,50 @@
 
 ## Overview
 
-This repository is part of an assignment for the **Prompt Engineering** class. The assignment demonstrates the use of an LLM to generate and audit Python code through a series of Git commits.
+This repository is part of an assignment for the **Prompt Engineering** class. It contains basic Python programs and demonstrates the use of an LLM for reviewing and improving repository documentation.
 
-## Commit History
+## Development Stages
 
-### Commit 1 — Factorial Program
+### Stage 1 — Factorial Program
 
-Added a basic **Factorial program in Python**.
+Added a basic **Factorial program in Python** using `factorial.py`.
 
-### Commit 2 — Fibonacci and Struct Programs
+### Stage 2 — Fibonacci and Struct Programs
 
-Added two more Python programs:
+Added two Python programs:
 
-* **Fibonacci series**
-* **Struct program**
+- `fibonacci.py` — Generates the Fibonacci series.
+- `struct.py` — Demonstrates the use of a struct-like data structure using Python `dataclass`.
 
-These programs were written as part of the coding exercise and demonstrate basic programming concepts in Python.
+### Stage 3 — README Audit Using LLM
 
-### Commit 3 — README Audit Using LLM
+The repository README was audited using an **LLM**. The LLM was asked to review the repository, identify inaccurate or unsupported claims, and improve the README accordingly.
 
-Used an **LLM to audit and improve the README** of the repository.
+The audit included checking:
 
-The purpose of this step was to demonstrate how an LLM can be used not only for generating code but also for reviewing and improving documentation.
+- Repository files
+- Program descriptions
+- Git development history
+- Python version requirements
+- Dependencies and external libraries
+- Accuracy and completeness of the documentation
 
-## Objective
+## Files
 
-The main objective of this assignment is to explore practical applications of **Prompt Engineering and Large Language Models (LLMs)** in software development, including:
+| File | Description |
+|---|---|
+| `factorial.py` | Calculates the factorial of a number. |
+| `fibonacci.py` | Generates a Fibonacci series. |
+| `struct.py` | Demonstrates a struct-like data structure using `dataclass`. |
+| `README.md` | Documentation and audit of the repository. |
 
-* Generating basic programs using prompts
-* Working with and modifying code
-* Using LLMs for documentation
-* Auditing and improving an existing README
+## How to Run
 
-## Technologies Used
+Make sure **Python 3.7 or later** is installed.
 
-* **Python**
-* **Git / GitHub**
-* **Large Language Model (LLM)**
-* **Prompt Engineering**
+Run the programs using:
+
+```bash
+python factorial.py
+python fibonacci.py
+python struct.py
